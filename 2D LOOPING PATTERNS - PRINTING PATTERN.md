@@ -25,12 +25,20 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No: 212222060074
+#Name: Hariharan K
 #Add Your Code Here
+a = int(input())
+for i in range(0, a):
+    for j in range(0, i + 1):
+        print("*", end=' ')
+    print("")
 
 ```
 
 ### OUTPUT
+<img width="517" height="680" alt="image" src="https://github.com/user-attachments/assets/571954b5-9021-4776-bcfd-af827a772d95" />
+
 
 ### RESULT
+Thus the program to print a pyramid pattern of numbers based on the number of rows entered by the user has been implemented and executed successfully.
